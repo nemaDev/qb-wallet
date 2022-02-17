@@ -8,7 +8,7 @@ edited and fixed for me Nema#2245
 # Required
 - qb-core/shared/items.lua info
 
-		["billetera"] 					 = {["name"] = "billetera", 					["label"] = "Billetera", 				["weight"] = 500, 		["type"] = "item", 		["image"] = "billetera.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Billetera test)"},
+		["billetera"] 			 = {["name"] = "billetera", 			["label"] = "Billetera", 		["weight"] = 500, 		["type"] = "item", 		["image"] = "billetera.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Billetera test)"},
 
 
 
