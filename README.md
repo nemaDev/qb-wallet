@@ -12,14 +12,14 @@ edited and fixed for me Nema#2245
 
 
 
-- go to lj-inventory\html\js\app.js
+#- go to lj-inventory\html\js\app.js
 # Find: stickynote and paste below
 
 } else if (itemData.name == "billetera") {
             $(".item-info-title").html('<p>'+itemData.label+'</p>')
             $(".item-info-description").html('<p><strong>Número de identificación billetera: </strong><span>' + itemData.info.billeteraid);
 
--go to lj-inventory/server/main.lua
+#-go to lj-inventory/server/main.lua
 # Find:
 - **elseif QBCore.Shared.SplitStr(shopType, "_")[1] == "Itemshop" then**
 
